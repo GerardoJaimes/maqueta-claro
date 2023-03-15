@@ -1,0 +1,14 @@
+
+
+  <button  type="button" class="button">
+    <image  class="imagenes" src="{{src}}" />
+    {{title}}
+    <image  class="imagenes" src="{{srcm}}" />
+   
+  </button>  
+
+
+ 
+
+
+ 

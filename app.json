@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/index/index"
+   
+
+  ],
+  "window": {
+    "defaultTitle": "Paga tu factura",
+    "titleBarColor": "#F52A22"
+  }
+
+
+
+}

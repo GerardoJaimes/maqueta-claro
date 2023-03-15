@@ -1,0 +1,75 @@
+<view class="principal">
+  
+
+<view class="container">
+  <scroll-view class="scroll-view" scroll-y   ="{{true}}">
+    <view class="appBar">
+        <view class="imagen-icon">
+            <image class="imagen" src="{{src[0]}}"  />
+            <icon type="search" size="30"/>
+        </view>
+      </view>
+      <view class="header">
+          <view class="child-header"> Postpago</view>
+            <text style="font-size:25px; font-weight:bold;" > Paga tu factura</text>
+            <text style="font-size:16px; font-weight:400;" >N° de línea: {{usuario.linea}}</text>
+            <text></text>
+      </view>
+            <view class="Datosusuarios">
+              <view class="name">
+                <text style="font-size:16px; font-weight:bold; color:red" >Sr.(a) 1226 {{usuario.nombre}}}</text>
+                
+              </view>
+              <view class="referencia">
+                <text style="font-size:18px; font-weight:700;" >Referencia de pago:</text>
+                <text style="font-size:18px; font-weight:bold; color: #187385;" >{{usuario.refPago}}</text>
+              </view>
+              <view class="name">
+                <text style="font-size:14px; font-weight:bold; color:black" >Direccion de Facturación:
+                 {{usuario.direccion}}</text>               
+              </view>
+          </view>
+      
+          <view class="pagofactura">
+            <text style="font-size:25px; font-weight:bold;" > Factura Actual</text>
+            <view class="saldo">
+              <text style="font-size:22px; font-weight:bold;" > Valor a pagar</text>
+              <text style="font-size:50px; font-weight:bold; color:red;" >{{saldo}}</text>
+            </view>
+            <view class="referencia">
+            <text style="font-size:18px; font-weight:700;" >Fecha de pago oportuno:</text>
+            <text style="font-size:18px; font-weight:bold; color: #187385;" >No aplica</text>
+            </view>
+              <button  type="buttonpagar"class="botonpagar">Paga tu factura aquí</button>         
+          </view>
+          <view class="pagofactura">
+            <text style="font-size:25px; font-weight:bold;" > Ultimo pago</text>
+              <view class="datospagar">
+                  <view class="referencia">
+                    <text style="font-size:18px; font-weight:700;">Fecha de pago:</text>
+                    <text style="font-size:18px; font-weight:bold; " >{{fechaPago}}</text>
+                  </view>
+                  <view class="referencia">
+                    <text style="font-size:18px; font-weight:700;" >Valor del pago:</text>
+                    <text style="font-size:18px; font-weight:bold;" >$ {{valorPago}}</text>
+                  </view>
+              </view>              
+              <refactor-button src="{{buttomM.src}}" title={{buttomM.title}}>                 
+              </refactor-button>
+              
+             </view>        
+            <view class="tambien">
+              <text style="font-size:25px; font-weight:bold;" >Tambien puedes</text>
+                <refactor-button class="button" a:for="{{button}}"
+                 a: for-item="item" title="{{item.title}}" src="{{item.src}}"
+                  srcm={{item.srcm}}></refactor-button>  
+            </view>
+      </scroll-view>
+    
+  
+ </view>
+
+
+  
+
+</view>

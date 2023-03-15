@@ -1,0 +1,196 @@
+.principal{
+  width: 100%;
+  height: max-content;
+}
+
+
+
+
+.container{
+  width:100%;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+ 
+
+
+
+
+ 
+  
+}
+.scroll-view{
+  height: 650px;
+}
+
+.appBar{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+ 
+
+/* padding: 5px; */
+ height: 70px;
+ width: 100%;
+
+
+  background-color:black;
+}
+.imagen-icon{
+  height: 8%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 10px;
+
+}
+.imagen{
+
+  width: 120px;
+  height: 40px;
+}
+.header{
+display: flex;
+flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  }
+
+.child-header{
+  padding-top: 8px;
+  background-color: red;
+  width: 90px;
+  height: 30px;
+ color: white;
+ margin-bottom: 10px;
+ 
+   font-weight: bold;
+   font-size: 18px;
+   text-align: center;
+}
+.Datosusuarios{
+  padding-top: 10px;
+  margin-top: 30px;
+  margin-left: 10px;
+  width: 95%;
+  height: 160px;
+  border: 0.2px solid gray;
+  border-radius: 10px;
+  display: flex;
+ 
+  align-items: center;
+  
+  flex-direction: column;
+ 
+  
+}
+.name{
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: #ececec;
+  width: 95%;
+  height: 40px;
+  text-align: center;
+}
+
+.referencia{
+  width: 95%;
+  height: 30px;
+  padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+  justify-content: space-between;
+  
+
+}
+.pagofactura{
+  margin-left: 10px;
+  padding-top: 10px;
+  margin-top: 30px;
+  width: 95%;
+  height: 250px;
+  background-color: #ececec;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+.saldo{
+  margin-top: 10px;
+  padding-top: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  background-color: white;
+  width: 95%;
+  height: 80px;
+  text-align: center;
+}
+.botonpagar{
+  margin-top: 10px;
+  background-color: red;
+  width: 200px;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+}
+.datospagar{
+  margin-top: 10px;
+  padding-left: 10px;
+  padding-top: 10px;
+  border-radius: 10px;
+  display: flex;
+   flex-direction: column; 
+  background-color: white;
+  justify-items: space-between;
+  width: 95%;
+  height: 70px;
+}
+.tambien{
+  margin-left: 10px;
+   margin-top: 30px; 
+  padding-top: 10px;
+  width: 95%;
+  height: 500px;
+  background-color: #ececec;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.footer{
+ display: flex;
+ flex-direction: row;
+ justify-items: space-between;
+  padding-left: 10px;
+  border-radius: 5px;
+  width: 95%;
+  height: 90px; 
+
+}
+ 
+
+.button{
+  margin-top: 30px;
+  padding-right: 15px;
+  padding-left: 20px;
+  padding-top: 10px;
+  width: 100%;
+  height: 60px;
+  border: 2px solid #d35647;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 10px;
+  
+}

@@ -1,0 +1,8 @@
+
+{
+ "usingComponents": {
+   "refactor-button" : "/refactor-components/button/button",
+   "button-navegation":"/refactor-components/buttonnavegation/buttonnavegation"
+ 
+ }
+}

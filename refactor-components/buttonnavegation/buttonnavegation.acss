@@ -1,0 +1,15 @@
+.buttonnavegation{
+  margin-bottom: 5px;
+  padding-top: 5px;
+  width: 80px;
+  height: 80px; 
+  display: flex;
+  flex-direction: column;  
+  align-items: center;
+ }
+
+.imagenesnavegation{
+  width:  40px;
+  height: 40px;
+ 
+}
